@@ -1,0 +1,43 @@
+body{
+    background-color: #f4f1de ;
+    width: 500px;
+    margin-right: auto;
+    margin-left: auto;
+    font-family: "Yu Mincho";
+}
+button{
+    padding: 5px 20px;
+    background-color: #81b29a;
+    border-style: none;
+}
+input{
+    height: 23px;
+}
+h1{
+    border-bottom: solid 5px #e07a5f;    
+}
+
+div[id="result-area"]>p{
+     text-decoration: underline;
+}
+li{
+    list-style: none;
+    position: relative;
+    padding-left: 0.7em;
+}
+li::before{
+    border-radius: 50%; 
+    width: 5px;
+    height: 5px;
+    display: block;
+    position: absolute;
+    left: -2px;
+    top: 0.6em;
+    content: "";
+    background: #3d405b;
+}
+
+span{
+    display: inline-block;
+    width: 5em;
+}
